@@ -8,9 +8,9 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import "./Nav.css"
 import Carousel from "../Components/Carousel";
-import FormCompo from "../Components/FormCompo";
+// import FormCompo from "../Components/FormCompo";
 import Footer from "../Footer/Footer";
-//import Theater from "../Theater/Theater";
+import Theater from "../Theater/Theater";
 
 export default function Nav() {
   return (
@@ -65,8 +65,8 @@ export default function Nav() {
       </div>
       <Carousel/>
        <br/><br/>
-       {/* <Theater/> */}
-      <FormCompo/> 
+       <Theater/> 
+      {/* <FormCompo/>  */}
       <br/>
       <Footer/>
       <Routes>
